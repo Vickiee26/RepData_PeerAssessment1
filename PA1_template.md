@@ -47,7 +47,9 @@ p
 ```
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
+
 Here, we can calculate mean and median steps of each day
+
 
 ```r
 mean(s$steps)

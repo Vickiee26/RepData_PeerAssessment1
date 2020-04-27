@@ -20,7 +20,9 @@ p <- ggplot(s, aes(x=steps)) +
   geom_histogram(color="black", fill="white")
 p
 ```
+
 Here, we can calculate mean and median steps of each day
+
 ```{r}
 mean(s$steps)
 median(s$steps)
